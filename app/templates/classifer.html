@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}
+{% if user %}
+    <h3>{{ user.checking_account_status}} 
+        {{user.duration }}
+        {{user.credit_history}}
+        {{user.purpose}}
+        {{user.credit_amount}}
+        {{user.saving_account}}
+        {{user.employment_status}}
+        {{user.rate_income}}
+        {{user.personal_status}}
+        {{user.other_guarantors}}
+        {{user.residence_status}}
+        {{user.propert}}
+        {{user.age}}
+        {{user.plans}}
+        {{user.housing_type}}
+        {{user.load_num}}
+        {{user.job_type}}
+        {{user.num_maintenance}}
+        {{user.tel}}
+        {{user.foreign}}
+        {{user.predict_ret}}
+    </h3>
+{% else %}
+    <h1>Hello World!</h1>
+{% endif %}
+{% endblock %}

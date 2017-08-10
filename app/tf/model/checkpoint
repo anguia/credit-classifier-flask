@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ucsmy/workspaces/credit-classifier-master/model/credit"
+all_model_checkpoint_paths: "/home/ucsmy/workspaces/credit-classifier-master/model/credit"

@@ -1,0 +1,7 @@
+uwsgi 
+flask
+wtforms
+scipy
+numpy
+sklearn
+tensorflow

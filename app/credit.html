@@ -1,0 +1,21 @@
+<!doctype html>
+<title>Credit Classified Sample</title>
+<h1>Edit User Info.</h1>
+{% from "_formhelpers.html" import render_field %}
+  <table>
+    {{ render_field(form.duration) }}
+<!--
+    {{ render_field(form.credit_history) }}
+    {{ render_field(form.credit_amount) }}
+    {{ render_field(form.saving_account) }}
+    {{ render_field(form.employment_status) }}
+    {{ render_field(form.rate_income) }}
+    {{ render_field(form.personal_status) }}
+    {{ render_field(form.age) }}
+    {{ render_field(form.housing_type) }}
+    {{ render_field(form.load_num) }}
+    {{ render_field(form.job_type) }}
+-->
+  </table>
+    {{ form.submit }}
+</form>
